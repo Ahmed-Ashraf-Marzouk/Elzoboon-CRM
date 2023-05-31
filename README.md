@@ -1,5 +1,4 @@
-# customer-segmentation-online-retail-UCI-Machine-learning
-Comparison between different clustering algorithms on Online retail dataset provided by UCI Machine learning
+# Elzboon CRM ~an AI powered CRM 
 
-
+![Elzob.png](https://i.ibb.co/fvm1cGV/ElzobV2.png)
 dataset link https://archive.ics.uci.edu/ml/datasets/Online+Retail+II
