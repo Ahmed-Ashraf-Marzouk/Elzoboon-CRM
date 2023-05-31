@@ -1,4 +1,5 @@
-./ex_retail2_cleaned_data.xlsx
-./cv_retail2_cleaned_data.xlsx
-./ex_retail2_raw_data.xlsx
-./retail2_raw_data.csv
+Data/ex_retail2_cleaned_data.xlsx
+Data/cv_retail2_cleaned_data.xlsx
+Data/ex_retail2_raw_data.xlsx
+Data/retail2_raw_data.csv
+./ex_retail2_forecasting_data.xlsx
