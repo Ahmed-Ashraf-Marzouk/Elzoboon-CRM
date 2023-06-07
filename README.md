@@ -6,12 +6,12 @@ is a **C**ustomer **R**elationship **M**anagement (CRM) System powered by **AI**
 In our project **Elzoboon**, Machine learning algorithms are applied to help business take insighfull decisions based on their data. Our CRM is expected to help businesses gain more profit and handle their customers more effeciently. 
 
 **Target:**
-- [x] Customer segmentation 
-- [ ] Sales forecasting
-- [ ] Recommend next product for customers
-- [ ] Customer messages sentiment analysis
-- [ ] Customer messages summarization
-- [ ] Customer messages tagging
+- [x] Customer *segmentation* 
+- [ ] Sales *forecasting*
+- [ ] *Recommend* next product for customers
+- [ ] Customer messages *sentiment analysis*
+- [ ] Customer messages *summarization*
+- [ ] Customer messages *tagging*
 - [ ] ChatBot
 
 
