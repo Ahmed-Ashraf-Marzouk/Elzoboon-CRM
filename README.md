@@ -9,8 +9,13 @@ In our project **Elzoboon**, Machine learning algorithms are applied to help bus
 1. Customer segmentation 
 2. Sales forecasting 
 3. Recommend next product for customers
-4. Customer messages Sentiment analysis
+4. Customer messages sentiment analysis
 5. ChatBot (chatGPT integration)
+
+
+**Nice To Have:**
+1. Integration with Facebook store
+
 
 Dataset link https://archive.ics.uci.edu/ml/datasets/Online+Retail+II
 
