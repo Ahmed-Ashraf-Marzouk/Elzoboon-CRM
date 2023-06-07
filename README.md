@@ -10,7 +10,9 @@ In our project **Elzoboon**, Machine learning algorithms are applied to help bus
 - [ ] Sales forecasting
 - [ ] Recommend next product for customers
 - [ ] Customer messages sentiment analysis
-- [ ] ChatBot (chatGPT integration)
+- [ ] Customer messages summarization
+- [ ] Customer messages tagging
+- [ ] ChatBot
 
 
 **Nice To Have:**
