@@ -16,6 +16,11 @@ In our project **Elzoboon**, Machine learning algorithms are applied to help bus
 **Nice To Have:**
 1. Integration with Facebook store
 
+## Customer segementation 
+
+## Sales forecasting 
+
+
 
 Dataset link https://archive.ics.uci.edu/ml/datasets/Online+Retail+II
 
