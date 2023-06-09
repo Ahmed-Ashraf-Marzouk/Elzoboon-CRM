@@ -65,3 +65,6 @@ By leveraging the Online Retail II dataset in the Elzboon CRM system, businesses
 If you have any further questions or need assistance with utilizing the dataset, feel free to ask!
 
 Feel free to reach out if you have any questions or feedback. We're excited to help businesses leverage AI for effective customer management and decision-making.
+
+Under supervision of **Walaa Hassan El-Ashmawi**, *Faculty of Computer Science, Misr International University*
+
