@@ -10,19 +10,19 @@ In our project Elzboon, we apply machine learning algorithms to help businesses 
 
 ## Features
 
-- [x] Customer segmentation: Elzboon provides advanced customer segmentation capabilities, allowing businesses to group their customers based on various criteria such as demographics, purchasing behavior, and engagement levels. This helps businesses target specific customer segments with personalized marketing campaigns and improve customer satisfaction.
+- [x] **Customer segmentation:** Elzboon provides advanced customer segmentation capabilities, allowing businesses to group their customers based on various criteria such as demographics, purchasing behavior, and engagement levels. This helps businesses target specific customer segments with personalized marketing campaigns and improve customer satisfaction.
 
-- [ ] Sales forecasting: Elzboon's AI-powered algorithms analyze historical sales data and market trends to provide accurate sales forecasts. This helps businesses plan their inventory, optimize resource allocation, and make informed decisions regarding pricing, promotions, and marketing strategies.
+- [ ] **Sales forecasting:** Elzboon's AI-powered algorithms analyze historical sales data and market trends to provide accurate sales forecasts. This helps businesses plan their inventory, optimize resource allocation, and make informed decisions regarding pricing, promotions, and marketing strategies.
 
-- [ ] Recommend next product for customers: By leveraging machine learning techniques, Elzboon can analyze customer preferences, purchase history, and browsing behavior to suggest relevant products or services to individual customers. This enables businesses to enhance cross-selling and upselling opportunities and increase customer lifetime value.
+- [ ] **Recommend next product for customers:** By leveraging machine learning techniques, Elzboon can analyze customer preferences, purchase history, and browsing behavior to suggest relevant products or services to individual customers. This enables businesses to enhance cross-selling and upselling opportunities and increase customer lifetime value.
 
-- [ ] Sentiment analysis of customer messages: Elzboon's AI algorithms can automatically analyze the sentiment of customer messages, including emails, chat logs, and social media interactions. This helps businesses identify customer satisfaction levels, detect potential issues or complaints, and respond promptly to ensure customer happiness.
+- [ ] **Sentiment analysis of customer messages:** Elzboon's AI algorithms can automatically analyze the sentiment of customer messages, including emails, chat logs, and social media interactions. This helps businesses identify customer satisfaction levels, detect potential issues or complaints, and respond promptly to ensure customer happiness.
 
-- [ ] Summarization of customer messages: Elzboon's natural language processing capabilities allow for the automatic summarization of lengthy customer messages. This helps businesses save time by providing concise summaries of customer feedback, inquiries, or complaints, enabling them to address issues more efficiently.
+- [ ] **Summarization of customer messages:** Elzboon's natural language processing capabilities allow for the automatic summarization of lengthy customer messages. This helps businesses save time by providing concise summaries of customer feedback, inquiries, or complaints, enabling them to address issues more efficiently.
 
-- [ ] Tagging of customer messages: Elzboon provides automated tagging of customer messages based on predefined categories or custom tags. This allows businesses to categorize and prioritize customer inquiries, streamline customer support processes, and identify trends or common issues.
+- [ ] **Tagging of customer messages:** Elzboon provides automated tagging of customer messages based on predefined categories or custom tags. This allows businesses to categorize and prioritize customer inquiries, streamline customer support processes, and identify trends or common issues.
 
-- [ ] ChatBot: Elzboon offers an AI-powered chatbot that can handle basic customer inquiries, provide product information, and assist with order tracking. The chatbot helps businesses provide round-the-clock customer support, reduce response times, and improve overall customer experience.
+- [ ] **ChatBot:** Elzboon offers an AI-powered chatbot that can handle basic customer inquiries, provide product information, and assist with order tracking. The chatbot helps businesses provide round-the-clock customer support, reduce response times, and improve overall customer experience.
 
 ## Nice To Have
 
