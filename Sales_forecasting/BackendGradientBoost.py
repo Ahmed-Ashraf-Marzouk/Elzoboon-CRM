@@ -26,7 +26,7 @@ sns.set_style("whitegrid") # configuration for seaborn library
 # Input: file
 # Output: GradientBoostingRegressor Object
 def train(file):
-    orders = pd.read_excel(file, index=False)
+    orders = pd.read_csv(file, index_col=0)
     orders['TotalPrice'] = orders['UnitPrice'] * orders['Quantity']
     orders.InvoiceNo = pd.to_numeric(orders.InvoiceNo)
     # Convert InvoiceDate to datetime object
