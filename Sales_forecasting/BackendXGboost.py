@@ -27,6 +27,7 @@ sns.set_style("whitegrid") # configuration for seaborn library
 # Output: GradientBoostingRegressor Object
 def train(file):
     orders = pd.read_csv(file, index_col=0)
+    # orders = from database as DataFrame
     orders['TotalPrice'] = orders['UnitPrice'] * orders['Quantity']
     orders.InvoiceNo = pd.to_numeric(orders.InvoiceNo)
     # Convert InvoiceDate to datetime object
@@ -64,16 +65,17 @@ def train(file):
 # Input: start and end dates
 # Output: A DataFrame of each date with expected Quantity
 def predict(xgb_model, start, end, UnitPrice):
-    X_pred = pd.DataFrame(pd.date_range(start, end))
-    X_pred.columns = ['Date']
-    X_pred['Week'] = X_pred.InvoiceDate.dt.week
-    X_pred['Weekday'] = X_pred.InvoiceDate.dt.weekday
-    X_pred['Day'] = X_pred.InvoiceDate.dt.day
-    X_pred['UnitPrice'] = UnitPrice
-    y_pred = xgb_model.predict(X_pred)
-    Y_pred = pd.DataFrame({"Date": pd.date_range(start, end), "Quantity_pred": y_pred})
-    return Y_pred
-
+    if (xgb_model is not None):
+        X_pred = pd.DataFrame(pd.date_range(start, end))
+        X_pred.columns = ['Date']
+        X_pred['Week'] = X_pred.InvoiceDate.dt.week
+        X_pred['Weekday'] = X_pred.InvoiceDate.dt.weekday
+        X_pred['Day'] = X_pred.InvoiceDate.dt.day
+        X_pred['UnitPrice'] = UnitPrice
+        y_pred = xgb_model.predict(X_pred)
+        Y_pred = pd.DataFrame({"Date": pd.date_range(start, end), "Quantity_pred": y_pred})
+        return Y_pred
+    return None
 
 
 # xgb_model = train('../../sales_forecasting/code/Online_Retail.xlsx')
