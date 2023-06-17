@@ -3,3 +3,4 @@ Data/cv_retail2_cleaned_data.xlsx
 Data/ex_retail2_raw_data.xlsx
 Data/retail2_raw_data.csv
 ./ex_retail2_forecasting_data.xlsx
+./Lead_scoring/bank-additional-full.csv
