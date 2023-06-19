@@ -68,3 +68,9 @@ Feel free to reach out if you have any questions or feedback. We're excited to h
 
 Under supervision of **Dr. Walaa Hassan El-Ashmawi**, *Faculty of Computer Science, Misr International University*
 
+Credits: 
+Customer Segementation: https://www.kaggle.com/code/julienjta/e-commerce-segmentation-rfm-kmeans-4129
+Sales Forecasting: 
+Lead Scoring: 
+
+
