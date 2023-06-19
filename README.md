@@ -14,8 +14,8 @@ In our project Elzboon, we apply machine learning algorithms to help businesses 
 
 - [x] **Sales forecasting:** Elzboon's AI-powered algorithms analyze historical sales data and market trends to provide accurate sales forecasts. This helps businesses plan their inventory, optimize resource allocation, and make informed decisions regarding pricing, promotions, and marketing strategies.
 
-- [x] **Recommend next product for customers:** By leveraging machine learning techniques, Elzboon can analyze customer preferences, purchase history, and browsing behavior to suggest relevant products or services to individual customers. This enables businesses to enhance cross-selling and upselling opportunities and increase customer lifetime value.
-
+<!-- - [x] **Recommend next product for customers:** By leveraging machine learning techniques, Elzboon can analyze customer preferences, purchase history, and browsing behavior to suggest relevant products or services to individual customers. This enables businesses to enhance cross-selling and upselling opportunities and increase customer lifetime value.
+ -->
 - [ ] **Sentiment analysis of customer messages:** Elzboon's AI algorithms can automatically analyze the sentiment of customer messages, including emails, chat logs, and social media interactions. This helps businesses identify customer satisfaction levels, detect potential issues or complaints, and respond promptly to ensure customer happiness.
 
 - [ ] **Summarization of customer messages:** Elzboon's natural language processing capabilities allow for the automatic summarization of lengthy customer messages. This helps businesses save time by providing concise summaries of customer feedback, inquiries, or complaints, enabling them to address issues more efficiently.
