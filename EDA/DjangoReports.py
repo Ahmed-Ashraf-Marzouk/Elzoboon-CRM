@@ -1,7 +1,7 @@
 import pandas as pd
 # Description: Graph shows sales trend for each day from start to end dates
 # Input:
-# 1. File
+# 1. Files 
 # 2. start date
 # 3. end date
 # Output:
