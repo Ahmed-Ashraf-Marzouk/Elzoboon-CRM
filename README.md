@@ -12,9 +12,9 @@ In our project Elzboon, we apply machine learning algorithms to help businesses 
 
 - [x] **Customer segmentation:** Elzboon provides advanced customer segmentation capabilities, allowing businesses to group their customers based on various criteria such as demographics, purchasing behavior, and engagement levels. This helps businesses target specific customer segments with personalized marketing campaigns and improve customer satisfaction.
 
-- [ ] **Sales forecasting:** Elzboon's AI-powered algorithms analyze historical sales data and market trends to provide accurate sales forecasts. This helps businesses plan their inventory, optimize resource allocation, and make informed decisions regarding pricing, promotions, and marketing strategies.
+- [x] **Sales forecasting:** Elzboon's AI-powered algorithms analyze historical sales data and market trends to provide accurate sales forecasts. This helps businesses plan their inventory, optimize resource allocation, and make informed decisions regarding pricing, promotions, and marketing strategies.
 
-- [ ] **Recommend next product for customers:** By leveraging machine learning techniques, Elzboon can analyze customer preferences, purchase history, and browsing behavior to suggest relevant products or services to individual customers. This enables businesses to enhance cross-selling and upselling opportunities and increase customer lifetime value.
+- [x] **Recommend next product for customers:** By leveraging machine learning techniques, Elzboon can analyze customer preferences, purchase history, and browsing behavior to suggest relevant products or services to individual customers. This enables businesses to enhance cross-selling and upselling opportunities and increase customer lifetime value.
 
 - [ ] **Sentiment analysis of customer messages:** Elzboon's AI algorithms can automatically analyze the sentiment of customer messages, including emails, chat logs, and social media interactions. This helps businesses identify customer satisfaction levels, detect potential issues or complaints, and respond promptly to ensure customer happiness.
 
