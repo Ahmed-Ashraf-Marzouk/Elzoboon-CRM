@@ -73,10 +73,3 @@ def predict(g_boost, start, end, UnitPrice):
     y_pred = g_boost.predict(X_pred)
     Y_pred = pd.DataFrame({"Date": pd.date_range(start, end), "Quantity_pred": y_pred})
     return Y_pred
-
-
-
-g_boost = train('../../sales_forecasting/code/Online_Retail.xlsx')
-
-print(predict(g_boost, '2011-11-01', '2011-11-04' ))
-

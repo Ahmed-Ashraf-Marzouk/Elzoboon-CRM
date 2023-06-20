@@ -5,25 +5,15 @@ import pandas as pd
 # 2. start date
 # 3. end date
 # Output:
-# 1. Date | Mean of sales
-# 2. Date | Sales for each day
+# 1. Date | Sales for each day
 def sales_trend(file, start, end):
     df = pd.read_csv(file, index_col=0)
-    datesIndex = pd.date_range(start, end, freq= 'M')
-    datesIndex = datesIndex.tolist()
     df['invoiceDate'] = pd.to_datetime(df.invoiceDate)
     df = df.loc[df['invoiceDate'].between(start, end)]
-    df.head()
-    general_trend = pd.DataFrame(data={'Date':pd.to_datetime(df.InvoiceDate).dt.date,
-                                    'Total price':df.Quantity*df.UnitPrice})
-    general_trend = general_trend.groupby("Date")["Total price"].sum()
-    general_trend = pd.DataFrame(general_trend)
-
-    rolling_days = general_trend.copy()
-    rolling_days['Mean price'] = rolling_days["Total price"].rolling(window=30).mean() 
-    rolling_days.drop(['Total price'], axis=1, inplace=True)
-
-    return general_trend, rolling_days #[0], [1]
+    general_trend = pd.DataFrame(data={'date':df.invoiceDate,
+                                    'totalPrice':df.quantity*df.unitPrice})
+    general_trend = general_trend.groupby(['date'], as_index=False)["totalPrice"].sum()
+    return general_trend
 
 
 # Description: Number of new customers each month
@@ -33,7 +23,7 @@ def sales_trend(file, start, end):
 # 3. end date
 # Output:
 # Date | Number of customers
-def new_customers(file, start, date):
+def new_customers(file, start, end):
     df = pd.read_csv(file, index_col=0)
     df['InvoiceDate'] = pd.to_datetime(df.InvoiceDate)
     df = df.loc[df['InvoiceDate'].between(start, end)]
